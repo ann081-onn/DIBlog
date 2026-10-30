@@ -1,0 +1,169 @@
+.header-logo {
+    height: 80px;
+    margin-left: 20px;
+    
+}
+
+header{
+    width: 95%;
+    height: 40px;
+    background-color: black;
+    margin: 0 auto;   
+}
+
+header ul{
+    float: left;
+    height: 40px;     
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li{
+    float:left;
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 60px;
+    color: white;
+    font-size: 15px;
+}
+
+h1 {
+    margin-top: 0px;        
+    margin-bottom: 0px;
+    padding-left: 10px;        
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left: 5px solid gray;
+    border-bottom: 2px solid gray;
+    width: 100%;               
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.form-title {
+    font-size: 18px;
+    font-weight: bold;
+    border-left: 4px red solid;
+    margin: 0;
+    padding-left: 20px;
+    color: black;
+}
+
+.form-box {
+    margin: 20px auto;
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+.form-box div {
+    padding: 15px;
+}
+
+.text, textarea, .dropdown {
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    color: #999;
+    background: #fff;
+}
+
+textarea {
+    width: 60%;      
+    max-width: 100%; 
+}
+
+
+.submit {
+    border: 1px solid lightgray;
+    padding: 4px 10px;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+}
+
+
+.container {
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
+.main {
+    width: 70%;
+    background: white;
+    padding: 20px;
+}
+
+.main-img {
+    width: 100%;
+}
+.thumb-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.thumb-box img {
+    width: calc(25% - 10px);
+    height: auto;
+}
+
+.right{
+    text-align: right;
+}
+
+.sidebar h2 {
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+.sidebar {
+    width: 30%;
+    background: white;
+    padding: 20px;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+
+.box2 {
+    width: 100%;
+    margin-top: 20px;
+    background-color: transparent; 
+    text-align: left;              
+}
+
+
+footer{
+    clear: left;
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 60px;
+}
+.post-box {
+    background-color: #fbfbfb;   
+    border: 3px #ebebeb solid;   
+    padding: 15px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+
+.post-box h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.post-box p {
+    margin: 5px 0;
+}
+
+.posted-by {
+    color: #555;
+    font-size: 18px;
+}
